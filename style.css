@@ -1,0 +1,19 @@
+h2{
+	color: blue;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+h3{
+	font-family: Lobster, monospace;
+	font-size: 10px;
+	background-color: blue;
+}
+
+.blogpost{
+	border-width: 5px;
+	border-color: gray;
+	border-style: solid;
+	border-radius: 5px;
+
+}

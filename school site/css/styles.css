@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+}
+.myForm {
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 4px;
+	
+}
+
+input[type="text"], input[type="password"], select {
+	width: 90%;
+	border-radius: 4px;
+	padding: 10px 20px;
+	border: 1px solid grey;
+	margin: 8px auto;
+	font-size: 20px;
+	display: block;
+}
+input[type="submit"]{
+	display: block;
+	width: 90%;
+	border-radius: 4px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	margin: 8px auto;
+}
+label{
+	margin: 8px 60px;
+}
+input[type="submit"]:hover{
+	background-color: #45a049;
+}
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #333;
+	margin: 0;
+}
+li a {
+	display: block;
+	text-decoration: none;
+	padding: 13px 17px;
+	float: left;
+	font-size: 20px;
+	color: white;
+}
+li a:hover{
+	background-color: #111;
+	color: white;
+}
+.active{
+	background-color: #112;
+
+}
+.rightLinks{
+	padding: 13px 20px;
+}
+h1{
+	text-align: center;
+}
